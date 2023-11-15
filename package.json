@@ -1,0 +1,25 @@
+{
+  "name": "particle-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@particle-network/connect": "^1.2.1",
+    "core-js": "2",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-classes": "^7.23.3",
+    "@babel/plugin-transform-logical-assignment-operators": "^7.23.3",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.23.3",
+    "@babel/runtime-corejs2": "^7.23.2"
+  }
+}
